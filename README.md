@@ -22,24 +22,38 @@ Responsive Design: Works on different screen sizes
 Getting Started
 Installation
 Clone this repository:
-git clone https://github.com/your-username/text-stats-app.git
+
+
+git clone https://github.com/quick-witted-ashok/Real-Time-Text-Analysis
 
 
 Navigate to the project directory:
+
+
+
 cd my-app
 
 Install the required dependencies:
+
+
+
 npm install
 
 Running the App
 Start the development server:
+
+
 npm start
 
 Open your browser and go to:
+
+
 http://localhost:3000
 
 Build for Production
 To build the app for production, run:
+
+
 npm run build
 
 This will create an optimized production build in the /build folder.
@@ -56,4 +70,11 @@ Enter the word or phrase you want to search for in the first input field.
 Enter the word or phrase you want to replace it with in the second input field.
 Click Replace All to apply the changes. The replaced string will be highlighted with a gradient color and will fade out over time.
 Use the Dark Mode Toggle button to switch between light and dark themes.
+
+
+Output demo:
+
+https://github.com/user-attachments/assets/1e8403ee-9159-476a-adfc-e1abc370105d
+
+
 
