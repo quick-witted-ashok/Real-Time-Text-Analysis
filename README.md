@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Text Stats App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+The Text Stats App is a React-based web application that provides real-time text statistics and dynamic string replacement functionality. As users type into the textarea, they receive live feedback on:
 
-## Available Scripts
+The number of unique words in the text.
+The character count, excluding spaces and punctuation.
+The app also allows users to search for a specific string and replace it with another. The replaced text is highlighted with a dynamic color gradient effect to clearly indicate changes.
 
-In the project directory, you can run:
 
-### `npm start`
+Features
+Unique Word Count: Displays the number of unique words, case-insensitive.
+Character Count: Excludes spaces and punctuation, counting only letters and numbers.
+String Replacement: Search and replace specific words or phrases.
+Dynamic Highlighting: Recently replaced strings are highlighted with an animated color gradient (green, blue, purple) that fades out over time.
+Dark Mode Toggle: Switch between light and dark themes for better readability.
+Technologies Used
+React (Functional Components with Hooks)
+CSS Animations for dynamic highlighting effects
+Responsive Design: Works on different screen sizes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Getting Started
+Installation
+Clone this repository:
+git clone https://github.com/your-username/text-stats-app.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Navigate to the project directory:
+cd my-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install the required dependencies:
+npm install
 
-### `npm run build`
+Running the App
+Start the development server:
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your browser and go to:
+http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Build for Production
+To build the app for production, run:
+npm run build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will create an optimized production build in the /build folder.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Usage
+Type any text in the large textarea. Real-time statistics will be shown below:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Unique Words: The number of unique words in the text (case-insensitive).
+Character Count: The total number of characters, excluding spaces and punctuation.
+To replace a string:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Enter the word or phrase you want to search for in the first input field.
+Enter the word or phrase you want to replace it with in the second input field.
+Click Replace All to apply the changes. The replaced string will be highlighted with a gradient color and will fade out over time.
+Use the Dark Mode Toggle button to switch between light and dark themes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
